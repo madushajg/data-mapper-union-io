@@ -60,9 +60,9 @@ type PostalAddress record {
     string country;
 };
 
-function transform(Input input) returns Output => {
+function transform(Input input) returns Output|error? => {
     id: input.userId,
     contctMedium: {
-        contactEmail: (<ContactMediumEmail>input.contactMedium).characteristic.emailAddress
+        contactEmail: input.contactMedium is ContactMediumEmail ? (check input.contactMedium.ensureType(ContactMediumEmail)).characteristic.emailAddress : ""
     }
 };
