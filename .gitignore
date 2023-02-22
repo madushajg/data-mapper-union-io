@@ -1,0 +1,7 @@
+target
+
+# ignore Intellij-IDEA files
+*.iml
+.idea/
+*.iws
+*.ipr

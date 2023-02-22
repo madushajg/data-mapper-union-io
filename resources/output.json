@@ -1,0 +1,13 @@
+{
+  "id": "EXTERNAL_ID",
+  "contactName": "RELATEDPARTY_1_NAME",
+  "contactEmail": "RELATEDPARTY_1_EMAILADDRESS",
+  "contactPhone": "RELATEDPARTY_1_PHONENUMBER",
+  "contactAddress": {
+    "address1": "RELATEDPARTY_1_STREET1",
+    "name": "RELATEDPARTY_1_NAME",
+    "city": "RELATEDPARTY_1_CITY",
+    "zip": "RELATEDPARTY_1_POSTCODE",
+    "country": "RELATEDPARTY_1_COUNTRY"
+  }
+}

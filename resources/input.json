@@ -1,0 +1,27 @@
+{
+  "userId": "EXTERNAL_ID",
+  "contactMedium": [
+    {
+      "mediumType": "EMAIL",
+      "characteristic": {
+        "emailAddress": "RELATEDPARTY_1_EMAILADDRESS"
+      }
+    },
+    {
+      "mediumType": "TELEPHONE",
+      "characteristic": {
+        "phoneNumber": "RELATEDPARTY_1_PHONENUMBER"
+      }
+    },
+    {
+      "mediumType": "POSTAL_ADDRESS",
+      "characteristic": {
+        "city": "RELATEDPARTY_1_CITY",
+        "country": "RELATEDPARTY_1_COUNTRY",
+        "postCode": "RELATEDPARTY_1_POSTCODE",
+        "street1": "RELATEDPARTY_1_STREET1",
+        "name": "RELATEDPARTY_1_NAME"
+      }
+    }
+  ]
+}
